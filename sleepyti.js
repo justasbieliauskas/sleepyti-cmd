@@ -1,14 +1,4 @@
-const {from, fromNow} = require('./times');
+const Sleepyti = require('./src/program');
 
-let result;
-if(process.argv.length > 2) {
-    result = from(
-        process.argv[2],
-        process.argv[3],
-        process.argv[4]
-    );
-} else {
-    result = fromNow();
-}
-
-console.log(result);
+const sleepyti = new Sleepyti(process.argv);
+console.log(sleepyti.output());
