@@ -2,6 +2,16 @@
 
 https://sleepyti.me turned to command line app.
 
+## Install
+
+```bash
+# Add a tap
+$ brew tap justasbieliauskas/sleepyti
+
+# Install
+$ brew install sleepyti
+```
+
 ## Usage
 
 Call execute node.js script `sleepyti.js` to run program. Pass hours, minutes and period or pass nothing to indicate current time.
