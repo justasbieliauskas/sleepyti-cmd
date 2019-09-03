@@ -23,3 +23,15 @@ $ node sleepyti.js
 6:00 PM
 4:30 PM
 ```
+
+## Build from sources
+
+Inside this repo do:
+
+```bash
+# install pkg
+$ npm install
+
+# compile scripts to executable
+$ npm run build
+```

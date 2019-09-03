@@ -1,0 +1,22 @@
+{
+  "name": "sleepyti-cmd",
+  "version": "0.1.0",
+  "description": "Command line replica of sleepyti.me",
+  "main": "sleepyti.js",
+  "scripts": {
+    "build": "npx pkg -t node10 --out-path bin/ sleepyti.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/justasbieliauskas/sleepyti-cmd.git"
+  },
+  "author": "Justas Bieliauskas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/justasbieliauskas/sleepyti-cmd/issues"
+  },
+  "homepage": "https://github.com/justasbieliauskas/sleepyti-cmd#readme",
+  "devDependencies": {
+    "pkg": "^4.4.0"
+  }
+}
