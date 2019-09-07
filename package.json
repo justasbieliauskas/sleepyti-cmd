@@ -4,6 +4,7 @@
   "description": "Command line replica of sleepyti.me",
   "main": "sleepyti.js",
   "scripts": {
+    "test": "jest",
     "build": "npx pkg -t node10 --out-path bin/ sleepyti.js"
   },
   "repository": {
@@ -17,6 +18,7 @@
   },
   "homepage": "https://github.com/justasbieliauskas/sleepyti-cmd#readme",
   "devDependencies": {
+    "jest": "^24.9.0",
     "pkg": "^4.4.0"
   }
 }
